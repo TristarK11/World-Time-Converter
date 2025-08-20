@@ -1,0 +1,29 @@
+{
+  "name": "world-time-app",
+  "version": "1.0.0",
+  "description": "World time app with secure API proxy + Docker + HAProxy deployment",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0"
+  },
+  "main": "script.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TristarK11/World-Time-Converter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TristarK11/World-Time-Converter/issues"
+  },
+  "homepage": "https://github.com/TristarK11/World-Time-Converter#readme"
+}
